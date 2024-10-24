@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="/statics/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <title>About Me</title>
+
+  <style>
+    h2 {
+      font-size: 2.7vw; 
+      display: inline;
+      line-height: 2;
+    }
+
+    p {
+      font-size: 1.7vw; 
+      line-height: 1.5;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 15vw; 
+    }
+
+    .personal-information {
+      flex: 1;
+      margin-left: 3vw; 
+    }
+
+    .educational-background {
+      flex: 1;
+      position: absolute;
+      left: 37vw; 
+    }
+
+    .interests {
+      flex: 1;
+      position: absolute;
+      right: 10vw; 
+    }
+    
+  </style>
+
+  <script>
+    function goBack(){
+      history.back();
+    }
+  </script>
+</head>
+
+<body>
+    <h1>About Me</h1>
+
+    <a class="back-link" href="#" onclick="goBack()">Back</a>
+
+    <div class="container">
+      <div class="personal-information">
+        <h2>Personal Information&nbsp;</h2>
+        <p><i class="fas fa-calendar-day icon">&nbsp;</i>Birthday : <strong>2003/04/28</strong></p>
+        <p><i class="fas fa-phone-alt icon">&nbsp;</i>Phone : <strong>0981264052</strong></p>
+        <p><i class="fas fa-envelope icon">&nbsp;</i>E-mail : <strong><a href="mailto:linff3327@gmail.com" style="color: black">linff3327@gmail.com</a></strong></p>
+      </div>
+
+      <div class="educational-background">
+        <h2>Educational Background&nbsp;</h2>
+        <p><i class="fas fa-graduation-cap icon"></i>&nbsp;High School : <strong><a href="https://www.fg.tp.edu.tw/Taipei" style="color: black"> First Girl High School</a></strong></p>
+        <p><i class="fas fa-university icon"></i>&nbsp;University : <strong><a href="https://www.cgu.edu.tw/" style="color: black;">Chang Gung University</a></strong></p>
+        <p><i class="fas fa-book icon"></i>&nbsp;Major : <strong><a href="https://ai.cgu.edu.tw/" style="color: black;">Artificial Intelligence Bachelor Program</a></strong></p>
+      </div>
+
+      <div class="interests">
+        <h2><a href="http://127.0.0.1:5000/interests" style="color: black;">Interests</a>&nbsp;</h2>
+        <p><i class="fas fa-volleyball-ball icon"></i>&nbsp;&nbsp;Volleyball</p>
+        <p><i class="fas fa-table-tennis icon"></i>&nbsp;&nbsp;Table Tennis</p>
+        <p><i class="fas fa-chess icon"></i>&nbsp;&nbsp;Go</p>
+      </div>   
+    </div>
+    
+</body>
+</html>

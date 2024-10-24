@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/statics/style.css">
+
+    <title>Interests</title>
+
+    <style>
+        h2 {
+            font-size: 2.2vw; 
+        }
+
+        li {
+            font-size: 1.8vw; 
+            line-height: 1.5;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 220vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .volleyball-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .volleyball-go-image {
+            margin-right: 5vw; 
+            max-width: 30vw; 
+        }
+
+        .table-tennis-image {
+            margin-left: 5vw; 
+            max-width: 30vw; 
+        }
+
+        .interest-content {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .interest-title {
+            margin-right: 1vw; 
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 2vw; 
+        }
+
+    </style>
+
+    <script>
+        function goBack(){
+          history.back();
+        }
+    </script>
+ 
+</head>
+
+<body>
+    <h1>Interests</h1>
+
+    <a class="back-link" href="#" onclick="goBack()">Back</a>
+     
+    <div class="container">
+        <div class="volleyball-container">
+            <img src="/statics/Volleyball.jpg" alt="Volleyball Image" class="volleyball-go-image">
+            <div>
+                <h2 class="interest-title">Volleyball</h2>
+                <ul>
+                    <li>Started playing volleyball in the third grade of high school</li>
+                    <li>Made a lot of good friends</li>
+                    <li>Enjoy the excitement and teamwork</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="interest-content">
+            <div>
+                <h2 class="interest-title">Table Tennis</h2>
+                <ul>
+                    <li>Joined table tennis club in high school</li>
+                    <li>Served as director of the club</li>
+                    <li>Second place in Eduication Cup</li>
+                </ul>
+            </div>
+            <img src="/statics/Table Tennis.jpg" alt="Table Tennis Image" class="table-tennis-image">
+        </div>
+        <br>
+        <br>
+        <div class="volleyball-container">
+            <img src="/statics/Go.jpg" alt="Go Image" class="volleyball-go-image">
+            <div>
+                <h2 class="interest-title">Go</h2>
+                <ul>
+                    <li>Started playing Go in the second year of elementary school </li>
+                    <li>Achieved five duan</li>
+                    <li>Learned patience and stress resistance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

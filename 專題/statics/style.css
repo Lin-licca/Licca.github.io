@@ -1,0 +1,36 @@
+h1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.back-link {
+    position: fixed;
+    top: 35px;
+    left: 20px;
+    background-color: #BEBEBE;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Lucida Console, sans-serif;
+}
+
+.back-link:hover {
+    background-color: gray;
+}
+
+button:hover {
+    background-color: LightSteelBlue;
+}
+
+img:hover {
+    transform: scale(1.2);
+}  
